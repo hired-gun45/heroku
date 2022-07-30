@@ -21,6 +21,7 @@ def load_data(date):
 
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
+server = app.server
 
 dt = date.today()
 start_date = str(dt.year) + str(dt.month).zfill(2) + str(dt.day).zfill(2)

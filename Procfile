@@ -1,0 +1,1 @@
+web: gunicorn ts-graph:server
